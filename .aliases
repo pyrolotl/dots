@@ -1,0 +1,8 @@
+#!/bin/sh
+
+alias ls="ls -A --color=auto"
+alias grep="grep --color=auto"
+
+for i in halt reboot poweroff; do
+    alias $i="sudo $i"
+done

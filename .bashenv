@@ -1,0 +1,10 @@
+# PATH variables
+
+## Flatpak
+PATH="${PATH:+${PATH}:}/var/lib/flatpak/exports/bin"
+
+## Cargo
+PATH="${PATH:+${PATH}:}/home/susabh/.cargo/bin"
+
+## Homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

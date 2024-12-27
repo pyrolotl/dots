@@ -1,0 +1,9 @@
+[user]
+	name = Susabh Gautam
+	email = susabh@disroot.org
+[init]
+	defaultBranch = main
+[alias]
+	yolo = !git commit -m \"$(curl -s https://whatthecommit.com/index.txt)\"
+[pull]
+	rebase = false
